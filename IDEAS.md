@@ -1,15 +1,27 @@
-# Ambition of the Cosmic: Event Horizon — Ideas
+# Ambition — Ideas
 
 ## Core design goal
 
-This expansion should work with any combination of paid RimWorld DLC.
+**Ambition** is a late-game cosmic science expansion for RimWorld.
 
-DLC integrations should add extra depth, alternate unlock paths, flavor, powers, genes, rituals, or events, but the core mod should remain fun without requiring any specific DLC.
+It should feel like a natural follow-up to the original **Ambition of the Cosmic / Science Never Stops** fantasy: pushing research past glitterworld limits, into cosmic engineering, impossible materials, singularity manufacturing, and the reckless pursuit of knowledge beyond the point of no return.
+
+Ambition should work with any combination of paid RimWorld DLC.
+
+DLC integrations should add extra depth, alternate unlock paths, flavor, powers, genes, rituals, events, or destinations, but the core mod should remain fun without requiring any specific DLC.
+
+Optional support targets:
+
+* Royalty integration
+* Ideology integration
+* Biotech integration
+* Anomaly integration
+* Odyssey integration
 
 Core fallback paths should exist for major systems:
 
-* If the player does not have the space expansion, the Black Hole Forge can appear as a temporary world site, orbital event, quest map, or remote relay contact.
-* If the player does have the space expansion, the Black Hole Forge can become a real travel destination in orbit, the belt, or deep space.
+* If the player does not have Odyssey, the Black Hole Forge can appear as a temporary world site, orbital event, quest map, faction-sponsored expedition, or remote relay contact.
+* If the player does have Odyssey, Ambition can expand on Odyssey’s space gameplay with black-hole destinations, forge sites, cosmic research expeditions, and endgame singularity progression.
 * If the player does not have Royalty, psychic content is unavailable or replaced by non-psycast tech equivalents.
 * If the player does not have Ideology, cosmic belief content is unavailable but the research/faction loop still works.
 * If the player does not have Biotech, genes/xenotypes are unavailable but similar effects can exist as bionics, implants, drugs, or hediffs.
@@ -17,11 +29,13 @@ Core fallback paths should exist for major systems:
 
 ---
 
-# Ideas
+# Core ideas
 
 ## New inspiration type: multi thinker ADHD lmao
 
-Working name only. Possible in-game names:
+Working name only.
+
+Possible in-game names:
 
 * Cognitive Cascade
 * Parallel Thought
@@ -32,7 +46,8 @@ Working name only. Possible in-game names:
 Effect:
 
 * Researching under this effect gives a portion of the points spent toward another unlearned available research task.
-* The extra research must go toward a currently available project, not something locked behind future prerequisites.
+* The extra project must already be available.
+* It should not bypass prerequisites.
 * Spillover could target:
 
   * A random available project
@@ -43,10 +58,10 @@ Effect:
 
 Possible requirements / modifiers:
 
-* Maybe requires a certain Intellectual skill.
+* Maybe requires high Intellectual.
 * Maybe requires a certain amount of bionics or neural implants.
 * Pure Intellectual scaling could get snowball-ey, so it might need limits.
-* Bionics are harder to get, so they might be a better late-game requirement.
+* Bionics are harder to get, so they may be a better late-game requirement.
 * Could be driven by pawn features:
 
   * Neurotic
@@ -55,7 +70,7 @@ Possible requirements / modifiers:
   * Great memory
   * Psychically sensitive, if Royalty is active
   * Transhumanist-style traits / body mods
-  * Neural implants or AOTC-specific bionics
+  * Neural implants or Ambition-specific bionics
 
 Possible drawbacks:
 
@@ -68,9 +83,71 @@ Possible drawbacks:
 
 ---
 
+## New mental break: obsessive research spiral
+
+Dark mirror of the multi-thinker inspiration.
+
+Working names:
+
+* Obsessive Derivation
+* Research Spiral
+* Manic Thesis
+* Cognitive Collapse
+* Peer Review Breakdown
+* The Wrong Conclusion
+
+Effect:
+
+* Pawn starts furiously researching one selected project.
+* Research speed is very high.
+* However, the pawn cannibalizes progress from other random available or completed research projects.
+* Stolen research is converted at a bad rate, maybe 2x cost.
+* This can sabotage previous research.
+* If a completed project loses enough progress, it becomes incomplete again.
+* Anything requiring that research becomes locked until the lost research is recovered.
+
+Example:
+
+* Pawn adds 1000 points to the current research project.
+* The game removes 2000 points from other research progress.
+* If the stolen progress came from a completed prerequisite, dependent research becomes locked again until recovered.
+
+Why this is good:
+
+* Great for players who actively pay attention to mental breaks.
+* Bad-ish for players who ignore mental breaks and let pawns go wild.
+* Fits RimWorld’s “this is funny until it destroys your colony” design.
+
+Possible limits:
+
+* Do not steal from starting tech.
+* Do not steal from irreplaceable scenario-required tech.
+* Maybe only affects Ambition / AOTC research.
+* Maybe cannot fully unlearn core vanilla tech unless enabled in mod settings.
+* Could prefer partially completed projects before completed ones.
+* Could have a warning letter when the break begins.
+
+Possible player responses:
+
+* Arrest the pawn.
+* Knock them down.
+* Disable research benches.
+* Cut power to the research lab.
+* Use medicine, psycast, or drugs to calm them.
+* Let them cook and hope the result is worth it.
+
+Possible aftermath:
+
+* Pawn gains mood debuff: “Thesis Unfinished.”
+* Pawn gains mood buff if the target research completed.
+* Colony loses Horizon faction respect if dangerous research was sabotaged.
+* Colony gains a small amount of Research Data from the chaos.
+
+---
+
 ## Tiered research
 
-Some research could have tiers inside the same conceptual node.
+Some research could have internal tiers instead of always being separate nodes.
 
 Example:
 
@@ -86,22 +163,23 @@ Or:
 
 Possible unlock gates:
 
-* Higher tiers are locked behind techprints.
-* Higher tiers require Black Hole Forge access.
-* Higher tiers require faction respect.
-* Higher tiers require rare research data.
-* Higher tiers require completing dangerous experiments.
-* Higher tiers require physical samples from special events/sites.
+* Techprints.
+* Black Hole Forge access.
+* Horizon faction respect.
+* Rare research data.
+* Specific completed experiments.
+* Specific materials or samples.
+* Odyssey travel to special locations, if Odyssey is installed.
 
 Concern:
 
-* If the space expansion lets players access the Black Hole Forge more directly, it should not feel pay-to-win.
-* DLC should provide a cooler/more immersive route, not the only valid route.
+* If Odyssey makes Black Hole Forge access more direct, avoid making Odyssey feel pay-to-win.
 
-Possible solution:
+Solution:
 
-* Core players can access the Black Hole Forge through rare temporary world events or faction-sponsored expeditions.
-* Space expansion players can physically travel there, but still need to survive risk, cost, and time investment.
+* Odyssey players can physically travel to the forge.
+* Non-Odyssey players can access the same progression through rare quests, remote forge windows, faction expeditions, or temporary world sites.
+* Same rewards, different presentation and friction.
 
 ---
 
@@ -111,9 +189,9 @@ Thematically cool for obvious reasons.
 
 The Black Hole Forge should not feel like a normal bench. It should feel like the colony learned to use gravitational extremes as an industrial tool.
 
-Possible forms:
+### Without Odyssey
 
-### Core / no space DLC
+Alternate access methods:
 
 * Temporary world site.
 * Orbital relay event.
@@ -124,14 +202,19 @@ Possible forms:
 * Faction-sponsored expedition.
 * Remote forge access through a comms console or special structure.
 
-### With space expansion
+### With Odyssey
 
-* A place you visit in orbit.
-* A site that persists in the belt.
-* A deep-space point of interest.
+Odyssey should make the Black Hole Forge more physical and adventurous.
+
+Possible forms:
+
+* A place you fly to.
+* A site in orbit, the belt, or deep space.
+* A persistent or semi-persistent point of interest.
 * A rare gravitational alignment.
-* A map that collapses when you leave, fitting RimWorld’s temporary-map cleanup.
-* A dangerous place you fly to, stabilize, exploit, then escape from.
+* A dangerous forge window that collapses after use.
+* A map that disappears when leaving, fitting RimWorld’s temporary-map cleanup behavior.
+* A destination that expands beyond Odyssey’s normal space gameplay into black-hole research and singularity manufacturing.
 
 Possible uses:
 
@@ -143,6 +226,7 @@ Possible uses:
 * Manufacture late-game ship parts.
 * Upgrade resource printers.
 * Create materials that cannot be made on a normal colony map.
+* Unlock Event Horizon / final ending research.
 
 Possible costs:
 
@@ -161,7 +245,7 @@ Possible costs:
 
 ## New trader type
 
-God-tier items showing up on normal pack animals ruins the game fantasy and balance.
+God-tier items showing up on normal pack animals ruins the fantasy and balance.
 
 These traders should be unkillable, or at least impossible to loot normally.
 
@@ -177,8 +261,8 @@ Possible trader names:
 Presentation:
 
 * Orbital trade contact.
-* Comms console event.
 * Holographic envoy.
+* Comms console event.
 * Deep-space relay.
 * Remote transaction through an ancient station.
 * Temporary projected pawn.
@@ -192,9 +276,13 @@ If physically represented:
 * The player could be locked out of trade for a long time.
 * They should feel untouchable, but not in a cheap way.
 
-Costs non-silver shit:
+### Currency / trade logic
 
-* Research data
+There is already precedent for traders using specific currencies, like gold-only trading, so this could expand that idea into research and exotic resources.
+
+Possible currencies:
+
+* Research Data
 * AI persona cores
 * Archotech fragments
 * Prisoner brain scans
@@ -202,12 +290,31 @@ Costs non-silver shit:
 * Rare artifacts
 * High-quality legendary items
 * Completed research packages
+* Partial research progress
 * Exotic matter
 * Data cores
-* Void samples
 * Ancient techprints
 * Persona weapon memories
 * Captured anomaly data, if Anomaly is active
+
+### Research-as-currency ideas
+
+Options:
+
+* Trader asks for a specific amount of research progress.
+* Trader removes points from random incomplete projects.
+* Trader removes points from specific research categories.
+* Trader accepts completed research packages as trade goods.
+* Trader accepts “published thesis” items generated from completed research.
+* Trader accepts partial progress from a selected research project.
+* Trader gives better prices based on Horizon faction respect.
+
+Possible safer implementation:
+
+* Instead of directly removing completed research, create a resource called Research Data.
+* Research benches, rituals, quests, or completed projects generate Research Data.
+* The trader uses Research Data as currency.
+* More dangerous mod setting: allow direct research progress to be traded away.
 
 ---
 
@@ -216,41 +323,73 @@ Costs non-silver shit:
 Goal:
 
 * Stay true to the original Ambition of the Cosmic / Science Never Stops spirit.
-* Represent people who already pushed science past the normal limit.
-* They have done what the player is doing before.
 * They respect research, not wealth.
-* They should feel ancient, curious, tragic, and brilliant.
-* Similar energy to the Nomai from Outer Wilds, but not directly copied.
+* They have done what the player is trying to do before.
+* Similar energy to the Nomai from Outer Wilds: ancient, brilliant, curious, tragic, and scientifically obsessed.
+* Not a direct copy.
 
-Possible faction names:
+### Faction structure idea
+
+Maybe there is not just one faction.
+
+#### Lower faction
+
+A more reachable group of advanced researchers, scavengers, failed students, or fringe scientists.
+
+Possible roles:
+
+* Early/mid Ambition contact.
+* Sells lower-tier techprints.
+* Gives research quests.
+* Introduces Research Data currency.
+* Helps players enter the Ambition progression.
+
+Possible names:
+
+* The Fringe Observatory
+* The Outer Collegium
+* The Failed Institute
+* The Archive Remnants
+* The Lesser Peers
+
+#### Higher faction / Nomai-like imperials
+
+The true ancient cosmic researchers.
+
+Possible roles:
+
+* Late-game gatekeepers.
+* Respected like Imperials, but based on research maturity.
+* Feed the colony advanced research.
+* Judge whether the colony is ready for Gen IV / Event Horizon science.
+* May have already attempted the final experiment.
+
+Possible names:
 
 * The Horizon Institute
-* The Far Researchers
-* The Pinnacle Custodians
-* The Eventide Archive
-* The Causal Assembly
 * The Last Observatory
 * The Singularity Collegium
+* The Pinnacle Custodians
+* The Causal Assembly
 * The Final Peer Review
 
-### Relationship / respect system
+### Research-based respect
 
-Their relationship with the colony should mostly come from research maturity.
+Relationship status is mostly based on research maturity.
 
-Not just total research points, because that rewards raw grind too much.
+Not just total research points, because raw grind can be misleading.
 
 Possible score factors:
 
-* Percent of completed research projects.
-* Percent of completed AOTC research projects.
-* Current completed research points compared against total available research points.
-* Completion of specific milestone projects.
+* Percent of all completed research projects.
+* Percent of completed Ambition research projects.
+* Completed research points compared to total available research points.
+* Important milestone projects completed.
+* Current research era reached.
 * Black Hole Forge mastery.
-* Number of completed research eras.
 * Number of dangerous experiments survived.
-* Number of unique artifacts studied.
 * Quality of research infrastructure.
-* Successful use of advanced faction tech without catastrophic failure.
+* Successful completion of faction research quests.
 
 Possible respect ranks:
 
@@ -263,49 +402,39 @@ Possible respect ranks:
 * Pinnacle Peer
 * Final Observer
 
-Respect gains:
+### Research requiring faction rep
 
-* Completing AOTC research eras.
-* Discovering singularity data.
-* Building advanced research infrastructure.
-* Safely using the Black Hole Forge.
-* Trading research data.
-* Completing faction research quests.
-* Returning from dangerous cosmic sites.
-* Proving containment capability.
-* Completing “peer review” style trials.
+This is counterintuitive mechanically, but good flavor if handled carefully.
 
-Respect losses:
+The idea:
 
-* Attacking envoys.
-* Botching major experiments.
-* Failing forge containment.
-* Selling dangerous tech to pirates.
-* Losing important artifacts.
-* Trying to loot projected traders.
-* Using unstable tech irresponsibly.
+* They are not just blocking you.
+* They are feeding you the next layer of theory because they know what happens if you rush it.
 
-Faction role:
+Possible implementation:
 
-* Rare traders.
-* Quest givers.
-* Research auditors.
-* Cosmic warning system.
-* Keepers of techprints.
-* Gatekeepers for Gen IV / Pinnacle tech.
-* Former survivors of a failed event-horizon experiment.
+* Core research remains possible without them.
+* Certain advanced tiers need faction respect, techprints, or Research Data.
+* Higher rep gives safer/faster access.
+* Low rep players can still force progress through dangerous alternate paths.
+* “Stolen theory” route could exist, but causes faction hostility or instability.
 
-They know what the player is trying to do because they already tried it.
+Example:
+
+* Gen I/II: no faction required.
+* Gen III: faction helps but is optional.
+* Gen IV/TPOC: faction respect, stolen data, Black Hole Forge access, or dangerous anomaly route required.
+* Final Event Horizon ending: requires either high faction respect or reckless self-derived theory.
 
 ---
 
-# Expansion tie-ins
+# DLC integrations
 
-## Royalty
+## Royalty integration
 
 Royalty adds psycasts, persona weapons, psychic identity, neural heat, and noble-style progression.
 
-AOTC tie-ins should focus on gravity, causality, memory, and space-time manipulation.
+Ambition tie-ins should focus on gravity, causality, memory, and space-time manipulation.
 
 ### New psychic powers
 
@@ -400,7 +529,7 @@ Possible effects:
 
 ---
 
-## Ideology
+## Ideology integration
 
 Ideology should let colonies turn cosmic research into belief.
 
@@ -412,7 +541,7 @@ Theme:
 * The final experiment as pilgrimage.
 * Science slowly becoming religion.
 
-### New meme ideas
+### Meme ideas
 
 #### Cosmic Transcendence
 
@@ -510,57 +639,35 @@ Options:
 * Research speed inspiration.
 * Faction respect with the Horizon faction.
 * Psyfocus gain if Royalty is active.
-* Research data.
+* Research Data.
 * Techprint fragment.
 * Temporary mood boost from successful experiments.
 
 ---
 
-## Biotech
+## Biotech integration
 
-Biotech can support the theme through genes, xenotypes, vat-grown researchers, and engineered post-human colonists.
+Biotech can support the theme through genes, xenotypes, vat-grown researchers, engineered post-humans, and space-adapted bodies.
 
-If Biotech is not installed, some ideas can become bionics, implants, hediffs, or drugs instead.
+If Biotech is not installed, some effects can become bionics, implants, drugs, or hediffs.
 
-### New gene ideas
+### Gene ideas
 
 #### Void Adapted
 
 * Better mood in darkness / underground / space-like maps.
-* Reduced penalties from cosmic horror-style events.
-* Maybe reduced beauty or social downside.
+* Reduced penalties from cosmic events.
 
 #### Hypercognitive
 
 * Increased research speed.
 * Increased learning speed.
 * Higher mental break risk.
-* Maybe higher rest or food drain.
-
-#### Grav-Stabilized
-
-* Better resistance to movement disruption.
-* Better carry capacity.
-* Slightly slower movement.
-* Better resistance to gravity-related effects.
 
 #### Neural Lattice
 
-* Better learning speed.
-* Better research speed.
+* Better learning/research speed.
 * Vulnerable to EMP or psychic shock.
-* Increased pain from neural damage.
-
-#### Radiation Tempered
-
-* Toxic resistance.
-* Disease resistance.
-* Lower fertility or social downside.
-
-#### Synthetic Metabolism
-
-* Reduced food need.
-* Requires special medicine, charge packs, or exotic nutrients for best healing.
 
 #### Eventide Eyes
 
@@ -573,6 +680,22 @@ If Biotech is not installed, some ideas can become bionics, implants, hediffs, o
 * Small chance to generate research spillover.
 * Higher mental break risk.
 * Synergy with Cognitive Cascade inspiration.
+
+#### Low-Gravity Adapted / Bad Joints
+
+Odyssey-focused idea.
+
+* Pawn has worse movement or more pain under normal gravity.
+* Pawn performs better in space, low-gravity, or ship environments.
+* Reduced or no pain in Odyssey space conditions.
+* Better work speed in space environments.
+* Worse combat/movement on normal planet maps.
+
+Non-Odyssey fallback:
+
+* Better in sterile labs, darkness, artificial environments, or enclosed tech rooms.
+* Worse outdoors or in natural terrain.
+* Can be represented as a hediff or implant instead of a gene.
 
 ### Xenotype ideas
 
@@ -607,20 +730,52 @@ Possible items:
 
 ---
 
-## Anomaly
+## Anomaly integration
 
-Even if Anomaly is not the main tone, its systems can support “science went too far.”
+Ambition should remain arrogant science, not pure horror.
 
-AOTC should remain arrogant science, not pure horror.
+Anomaly tie-in should be about consequences and unethical experimentation.
 
-Anomaly tie-in should be about consequences:
+### Experimental Particle Accelerator
 
-* Failed singularity experiments attract entities.
-* Black Hole Forge use can destabilize reality.
-* Some Gen IV research requires studying entities.
-* Void-touched pawns gain strange hediffs.
-* Containment facilities can be upgraded with cosmic tech.
-* The Horizon faction may request entity data.
+A dangerous late-game structure.
+
+Concept:
+
+* Feed the accelerator anomaly pawns, entities, or anomaly resources.
+* It converts impossible biology or entity data into exotic materials, Research Data, or singularity-related resources.
+
+Possible inputs:
+
+* Captured anomaly pawns/entities.
+* Anomaly samples.
+* Void-touched tissue.
+* Bioferrite-style resources, if available.
+* Containment data.
+* Prisoner brain scans.
+* Failed experiment remains.
+
+Possible outputs:
+
+* Anomalous Research Data
+* Exotic Matter
+* Singularity Samples
+* Reality Anchor Components
+* Void-Stabilized Material
+* Entity-Compressed Fuel
+* Particle Lattice
+* Techprints for dangerous research
+
+Possible risks:
+
+* Containment breach.
+* Research accident.
+* Psychic backlash.
+* Entity escape.
+* Pawn mutation.
+* Temporary map condition.
+* Faction respect loss if used irresponsibly.
+* Ideology mood effects depending on beliefs.
 
 ### Research ideas
 
@@ -632,54 +787,25 @@ Anomaly tie-in should be about consequences:
 * Reality Anchor Design
 * Entity Signal Analysis
 
-### Incident ideas
-
-#### Gravitational Whisper
-
-Colonists hear impossible signals during high-level research.
-
-#### Failed Containment Echo
-
-A previous experiment briefly returns.
-
-#### Horizon Breach
-
-Small anomaly event caused by Black Hole Forge instability.
-
-#### Impossible Shadow
-
-A non-hostile but disturbing entity appears near research benches.
-
-#### Causal Duplicate
-
-A temporary duplicate / echo of a pawn appears during an experiment.
-
-### Items / rewards
-
-* Void samples
-* Entity-stabilized matter
-* Reality anchor components
-* Containment field upgrades
-* Anomalous research data
-
 ### Without Anomaly installed
 
-Replace with normal events:
+Replace with normal events/resources:
 
-* Psychic drone
-* Bad dreams
-* Research accident
-* Strange trader
-* Temporary map condition
-* Dangerous material instability
+* Dangerous particle accelerator.
+* Requires rare artifacts, prisoners, corpses, persona cores, or exotic materials instead.
+* Outputs Research Data, Exotic Matter, and Singularity Samples without entity-specific systems.
 
 ---
 
-## Space expansion
+## Odyssey integration
 
-The Black Hole Forge becomes much stronger with space gameplay, but should not require it.
+Odyssey is the official RimWorld DLC focused on space exploration.
 
-### With space expansion
+Ambition should expand on Odyssey, not depend on it.
+
+With Odyssey installed, Ambition can make the black-hole and cosmic research systems more physical, adventurous, and ship-driven.
+
+### Odyssey-supported Black Hole Forge
 
 Black Hole Forge could be:
 
@@ -689,6 +815,7 @@ Black Hole Forge could be:
 * A special orbital destination.
 * A site that appears and disappears.
 * A dangerous forge window that collapses after use.
+* A location that lets Ambition go beyond Odyssey’s normal frontier into singularity science.
 
 Gameplay loop:
 
@@ -711,7 +838,7 @@ Possible site events:
 * Ship AI detects impossible signals.
 * Lost Horizon faction probe is found.
 
-### Without space expansion
+### Without Odyssey
 
 Alternate access methods:
 
@@ -724,7 +851,7 @@ Alternate access methods:
 * Comms-console “remote forge window.”
 * Research project that opens a temporary map.
 
-This keeps the feature accessible without making the space DLC mandatory.
+This keeps the feature accessible without making Odyssey mandatory.
 
 ---
 
@@ -754,11 +881,15 @@ Example requirements:
 
 Working title:
 
-## Ambition of the Cosmic: Event Horizon
+## Ambition
+
+Possible subtitle / major update name:
+
+## Event Horizon
 
 Pitch:
 
-A late-game science expansion about pushing RimWorld research past glitterworld technology, into cosmic engineering, singularity fabrication, impossible materials, and the reckless pursuit of knowledge beyond the point of no return.
+Ambition is a late-game cosmic science expansion about pushing RimWorld research past glitterworld technology, beyond Odyssey’s frontier, into cosmic engineering, singularity fabrication, impossible materials, and the reckless pursuit of knowledge beyond the point of no return.
 
 The colony does not simply escape the rim.
 

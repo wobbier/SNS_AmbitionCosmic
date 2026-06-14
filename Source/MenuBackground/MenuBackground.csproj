@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>SNSAOTC_MenuBackground</AssemblyName>
+    <RootNamespace>AOTC.MenuBackground</RootNamespace>
+  </PropertyGroup>
+</Project>

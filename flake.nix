@@ -29,6 +29,7 @@
               for p in \
                 Source/ArmorShield/Armorshield.csproj \
                 Source/InfiniteResearch/InfiniteResearch.csproj \
+                Source/MenuBackground/MenuBackground.csproj \
                 Source/SNSAOTC_LethalThresholdFix/SNSAOTC_LethalThresholdFix/SNSAOTC_LethalThresholdFix.csproj
               do
                 dotnet build "$root/$p" -c "$cfg" -o "$root/Assemblies" || return 1

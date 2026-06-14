@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteResearch", "Infinit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNSAOTC_LethalThresholdFix", "SNSAOTC_LethalThresholdFix\SNSAOTC_LethalThresholdFix\SNSAOTC_LethalThresholdFix.csproj", "{65862DA9-AEEB-404C-999E-64D6B444C186}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBackground", "MenuBackground\MenuBackground.csproj", "{7195F7C1-5F1A-41F0-8CE3-DB741525C471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,18 @@ Global
 		{65862DA9-AEEB-404C-999E-64D6B444C186}.Release|x64.Build.0 = Release|Any CPU
 		{65862DA9-AEEB-404C-999E-64D6B444C186}.Release|x86.ActiveCfg = Release|Any CPU
 		{65862DA9-AEEB-404C-999E-64D6B444C186}.Release|x86.Build.0 = Release|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Debug|x64.Build.0 = Debug|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Debug|x86.Build.0 = Debug|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Release|x64.ActiveCfg = Release|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Release|x64.Build.0 = Release|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Release|x86.ActiveCfg = Release|Any CPU
+		{7195F7C1-5F1A-41F0-8CE3-DB741525C471}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
