@@ -1,0 +1,7 @@
+Source/**/obj/
+Source/**/bin/
+.vs/
+.idea/
+.direnv/
+*.user
+*.suo

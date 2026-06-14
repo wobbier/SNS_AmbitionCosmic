@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Armorshield</AssemblyName>
+    <RootNamespace>Armorshield</RootNamespace>
+  </PropertyGroup>
+</Project>
